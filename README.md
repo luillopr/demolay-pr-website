@@ -30,3 +30,11 @@ The membership form currently uses a `mailto:` workflow and does not store form 
 - Header/footer use the current DeMolay corporate mark from the official DeMolay International website.
 - The Hijos de América emblem is retained for chapter-specific content, not as the corporate/jurisdiction mark.
 - Added official Brand Center resource and "The Road Begins Here" campaign language.
+
+## V2.2 social/contact update
+- Facebook: https://www.facebook.com/DemolayPuertoRico
+- Instagram: https://www.instagram.com/demolaypuertorico
+- TikTok: https://www.tiktok.com/@demolay.pr
+- Linktree: https://linktr.ee/demolaypuertorico
+- WhatsApp CTA added using the current contact number.
+- WhatsApp link opens with a pre-filled Spanish recruitment message.
