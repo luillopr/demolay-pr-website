@@ -26,3 +26,16 @@ Deploy with the existing Cloudflare Workers static-assets configuration.
 - Sept 12–13 Shriners Clinic: volunteers welcome.
 - Sept 25 Shriners Golf Tournament: registration required.
 - Sept 26 Grand Lodge Tropical Night: registration required.
+
+
+## V2.9 event date display fix
+- Fixed invisible event date panels caused by an undefined CSS variable.
+- Added weekday labels in Spanish and English (MIÉ/WED, SÁB–DOM/SAT–SUN, VIE/FRI, SÁB/SAT).
+- Event cards now clearly display weekday, date, month and year.
+
+
+## V3.0 event updates
+- Visible date badges added to upcoming event cards (weekday, day, month, year).
+- Shriners Golf Tournament registration button links to https://shrinersgolfpr.org/.
+- Grand Lodge Tropical Night registration button links to the official Zeffy ticket page.
+- Registration URLs added to Event structured data.
