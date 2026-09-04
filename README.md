@@ -1,4 +1,4 @@
-# DeMolay Puerto Rico Website — V2.6
+# DeMolay Puerto Rico Website — V3.1
 
 Production static website for demolaypr.org.
 
@@ -39,3 +39,9 @@ Deploy with the existing Cloudflare Workers static-assets configuration.
 - Shriners Golf Tournament registration button links to https://shrinersgolfpr.org/.
 - Grand Lodge Tropical Night registration button links to the official Zeffy ticket page.
 - Registration URLs added to Event structured data.
+
+## V3.1 photo library update
+- Replaced the home-page hero with an energetic Masonic 5K photo.
+- Updated the home-page activity preview with public speaking, an active ceremony and a Memorial Day observance.
+- Expanded the Spanish and English galleries to ten optimized activity photos.
+- Added descriptive bilingual captions and accessible image text.
