@@ -1,16 +1,211 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://demolaypr.org/</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
-  <url><loc>https://demolaypr.org/about/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://demolaypr.org/chapters/</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://demolaypr.org/chapters/hijos-de-america/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://demolaypr.org/contact/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://demolaypr.org/events/</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://demolaypr.org/gallery/</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://demolaypr.org/join/</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://demolaypr.org/leadership/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://demolaypr.org/news/</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://demolaypr.org/parents/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://demolaypr.org/resources/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://demolaypr.org/world/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://demolaypr.org/</loc>
+    <xhtml:link rel="alternate" hreflang="es-PR" href="https://demolaypr.org/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://demolaypr.org/en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://demolaypr.org/"/>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://demolaypr.org/en/</loc>
+    <xhtml:link rel="alternate" hreflang="es-PR" href="https://demolaypr.org/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://demolaypr.org/en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://demolaypr.org/"/>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://demolaypr.org/about/</loc>
+    <xhtml:link rel="alternate" hreflang="es-PR" href="https://demolaypr.org/about/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://demolaypr.org/en/about/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://demolaypr.org/about/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://demolaypr.org/en/about/</loc>
+    <xhtml:link rel="alternate" hreflang="es-PR" href="https://demolaypr.org/about/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://demolaypr.org/en/about/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://demolaypr.org/about/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://demolaypr.org/chapters/</loc>
+    <xhtml:link rel="alternate" hreflang="es-PR" href="https://demolaypr.org/chapters/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://demolaypr.org/en/chapters/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://demolaypr.org/chapters/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://demolaypr.org/en/chapters/</loc>
+    <xhtml:link rel="alternate" hreflang="es-PR" href="https://demolaypr.org/chapters/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://demolaypr.org/en/chapters/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://demolaypr.org/chapters/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://demolaypr.org/chapters/hijos-de-america/</loc>
+    <xhtml:link rel="alternate" hreflang="es-PR" href="https://demolaypr.org/chapters/hijos-de-america/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://demolaypr.org/en/chapters/hijos-de-america/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://demolaypr.org/chapters/hijos-de-america/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://demolaypr.org/en/chapters/hijos-de-america/</loc>
+    <xhtml:link rel="alternate" hreflang="es-PR" href="https://demolaypr.org/chapters/hijos-de-america/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://demolaypr.org/en/chapters/hijos-de-america/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://demolaypr.org/chapters/hijos-de-america/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://demolaypr.org/contact/</loc>
+    <xhtml:link rel="alternate" hreflang="es-PR" href="https://demolaypr.org/contact/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://demolaypr.org/en/contact/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://demolaypr.org/contact/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://demolaypr.org/en/contact/</loc>
+    <xhtml:link rel="alternate" hreflang="es-PR" href="https://demolaypr.org/contact/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://demolaypr.org/en/contact/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://demolaypr.org/contact/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://demolaypr.org/events/</loc>
+    <xhtml:link rel="alternate" hreflang="es-PR" href="https://demolaypr.org/events/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://demolaypr.org/en/events/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://demolaypr.org/events/"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://demolaypr.org/en/events/</loc>
+    <xhtml:link rel="alternate" hreflang="es-PR" href="https://demolaypr.org/events/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://demolaypr.org/en/events/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://demolaypr.org/events/"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://demolaypr.org/gallery/</loc>
+    <xhtml:link rel="alternate" hreflang="es-PR" href="https://demolaypr.org/gallery/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://demolaypr.org/en/gallery/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://demolaypr.org/gallery/"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://demolaypr.org/en/gallery/</loc>
+    <xhtml:link rel="alternate" hreflang="es-PR" href="https://demolaypr.org/gallery/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://demolaypr.org/en/gallery/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://demolaypr.org/gallery/"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://demolaypr.org/join/</loc>
+    <xhtml:link rel="alternate" hreflang="es-PR" href="https://demolaypr.org/join/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://demolaypr.org/en/join/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://demolaypr.org/join/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://demolaypr.org/en/join/</loc>
+    <xhtml:link rel="alternate" hreflang="es-PR" href="https://demolaypr.org/join/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://demolaypr.org/en/join/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://demolaypr.org/join/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://demolaypr.org/leadership/</loc>
+    <xhtml:link rel="alternate" hreflang="es-PR" href="https://demolaypr.org/leadership/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://demolaypr.org/en/leadership/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://demolaypr.org/leadership/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://demolaypr.org/en/leadership/</loc>
+    <xhtml:link rel="alternate" hreflang="es-PR" href="https://demolaypr.org/leadership/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://demolaypr.org/en/leadership/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://demolaypr.org/leadership/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://demolaypr.org/news/</loc>
+    <xhtml:link rel="alternate" hreflang="es-PR" href="https://demolaypr.org/news/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://demolaypr.org/en/news/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://demolaypr.org/news/"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://demolaypr.org/en/news/</loc>
+    <xhtml:link rel="alternate" hreflang="es-PR" href="https://demolaypr.org/news/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://demolaypr.org/en/news/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://demolaypr.org/news/"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://demolaypr.org/parents/</loc>
+    <xhtml:link rel="alternate" hreflang="es-PR" href="https://demolaypr.org/parents/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://demolaypr.org/en/parents/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://demolaypr.org/parents/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://demolaypr.org/en/parents/</loc>
+    <xhtml:link rel="alternate" hreflang="es-PR" href="https://demolaypr.org/parents/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://demolaypr.org/en/parents/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://demolaypr.org/parents/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://demolaypr.org/resources/</loc>
+    <xhtml:link rel="alternate" hreflang="es-PR" href="https://demolaypr.org/resources/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://demolaypr.org/en/resources/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://demolaypr.org/resources/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://demolaypr.org/en/resources/</loc>
+    <xhtml:link rel="alternate" hreflang="es-PR" href="https://demolaypr.org/resources/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://demolaypr.org/en/resources/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://demolaypr.org/resources/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://demolaypr.org/world/</loc>
+    <xhtml:link rel="alternate" hreflang="es-PR" href="https://demolaypr.org/world/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://demolaypr.org/en/world/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://demolaypr.org/world/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://demolaypr.org/en/world/</loc>
+    <xhtml:link rel="alternate" hreflang="es-PR" href="https://demolaypr.org/world/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://demolaypr.org/en/world/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://demolaypr.org/world/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
 </urlset>
