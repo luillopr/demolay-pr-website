@@ -1,102 +1,98 @@
-<!doctype html>
+<!DOCTYPE html>
+
 <html lang="es">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="description" content="Solicita información para conocer y participar en DeMolay Puerto Rico.">
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1" name="viewport"/>
+<meta content="Solicita información para conocer y participar en DeMolay Puerto Rico." name="description"/>
 <title>Únete | DeMolay Puerto Rico</title>
-<link rel="stylesheet" href="/styles.css">
+<link href="/styles.css" rel="stylesheet"/>
 </head>
 <body>
-
 <header class="site-header">
-  <a class="brand" href="/">
-    <img src="https://beademolay.org/wp-content/uploads/2022/06/Logos-01.jpg" alt="DeMolay" class="brand-official">
-    <span class="brand-wordmark">
-      <strong>DeMolay</strong>
-      <small>PUERTO RICO</small>
-    </span>
-  </a>
-  <button class="menu" aria-label="Abrir menú">☰</button>
-  <nav>
-    <a data-es="Inicio" data-en="Home" href="/">Inicio</a>
-    <a data-es="Quiénes somos" data-en="About" href="/about/">Quiénes somos</a>
-    <a data-es="Capítulos" data-en="Chapters" href="/chapters/">Capítulos</a>
-    <a data-es="Eventos" data-en="Events" href="/events/">Eventos</a>
-    <a data-es="Recursos" data-en="Resources" href="/resources/">Recursos</a>
-    <a class="join" data-es="Únete" data-en="Join" href="/join/">Únete</a>
-    <button id="lang" class="lang" type="button">EN</button>
-  </nav>
+<a class="brand" href="/">
+<img alt="DeMolay" class="brand-official" src="https://beademolay.org/wp-content/uploads/2022/06/Logos-01.jpg"/>
+<span class="brand-wordmark">
+<strong>DeMolay</strong>
+<small>PUERTO RICO</small>
+</span>
+</a>
+<button aria-label="Abrir menú" class="menu">☰</button>
+<nav>
+<a data-en="Home" data-es="Inicio" href="/">Inicio</a>
+<a data-en="About" data-es="Quiénes somos" href="/about/">Quiénes somos</a>
+<a data-en="Chapters" data-es="Capítulos" href="/chapters/">Capítulos</a>
+<a data-en="Leadership" data-es="Liderazgo" href="/leadership/">Liderazgo</a>
+<a data-en="Events" data-es="Eventos" href="/events/">Eventos</a><a data-en="Gallery" data-es="Galería" href="/gallery/">Galería</a>
+<a data-en="Resources" data-es="Recursos" href="/resources/">Recursos</a>
+<a class="join" data-en="Join" data-es="Únete" href="/join/">Únete</a>
+<button class="lang" id="lang" type="button">EN</button>
+</nav>
 </header>
-
 <main>
 <section class="page-hero">
-  <p class="eyebrow" data-es="ÚNETE" data-en="JOIN">ÚNETE</p>
-  <h1 data-es="Da el primer paso." data-en="Take the first step.">Da el primer paso.</h1>
-  <p data-es="Completa esta información para preparar un mensaje de interés. Por ahora, el formulario no almacena datos en el sitio."
-     data-en="Complete this information to prepare an interest message. For now, the form does not store data on the website.">
+<p class="eyebrow" data-en="JOIN" data-es="ÚNETE">ÚNETE</p>
+<h1 data-en="Take the first step." data-es="Da el primer paso.">Da el primer paso.</h1>
+<p data-en="Complete this information to prepare an interest message. For now, the form does not store data on the website." data-es="Completa esta información para preparar un mensaje de interés. Por ahora, el formulario no almacena datos en el sitio.">
      Completa esta información para preparar un mensaje de interés. Por ahora, el formulario no almacena datos en el sitio.
   </p>
 </section>
 <section class="form-section">
-  <form id="interestForm" class="interest-form">
-    <label><span data-es="Nombre del joven" data-en="Young man's name">Nombre del joven</span><input id="youthName" required></label>
-    <label><span data-es="Edad" data-en="Age">Edad</span><input id="age" type="number" min="9" max="25" required></label>
-    <label><span data-es="Municipio" data-en="Municipality">Municipio</span><input id="municipality" required></label>
-    <label><span data-es="Nombre del padre, madre o tutor" data-en="Parent or guardian name">Nombre del padre, madre o tutor</span><input id="guardianName" required></label>
-    <label><span data-es="Correo electrónico" data-en="Email">Correo electrónico</span><input id="email" type="email" required></label>
-    <label><span data-es="Teléfono (opcional)" data-en="Phone (optional)">Teléfono (opcional)</span><input id="phone" type="tel"></label>
-    <label class="full"><span data-es="¿Cómo conociste DeMolay?" data-en="How did you hear about DeMolay?">¿Cómo conociste DeMolay?</span><textarea id="source" rows="4"></textarea></label>
-    <button type="submit" class="primary" data-es="Preparar correo de interés" data-en="Prepare interest email">Preparar correo de interés</button>
-  </form>
-  <p class="form-note" data-es="Este formulario abre tu aplicación de correo y no envía ni almacena información automáticamente."
-     data-en="This form opens your email application and does not automatically send or store information.">
+<form class="interest-form" id="interestForm">
+<label><span data-en="Young man's name" data-es="Nombre del joven">Nombre del joven</span><input id="youthName" required=""/></label>
+<label><span data-en="Age" data-es="Edad">Edad</span><input id="age" max="25" min="9" required="" type="number"/></label>
+<label><span data-en="Municipality" data-es="Municipio">Municipio</span><input id="municipality" required=""/></label>
+<label><span data-en="Parent or guardian name" data-es="Nombre del padre, madre o tutor">Nombre del padre, madre o tutor</span><input id="guardianName" required=""/></label>
+<label><span data-en="Email" data-es="Correo electrónico">Correo electrónico</span><input id="email" required="" type="email"/></label>
+<label><span data-en="Phone (optional)" data-es="Teléfono (opcional)">Teléfono (opcional)</span><input id="phone" type="tel"/></label>
+<label class="full"><span data-en="How did you hear about DeMolay?" data-es="¿Cómo conociste DeMolay?">¿Cómo conociste DeMolay?</span><textarea id="source" rows="4"></textarea></label>
+<button class="primary" data-en="Prepare interest email" data-es="Preparar correo de interés" type="submit">Preparar correo de interés</button>
+</form>
+<p class="form-note" data-en="This form opens your email application and does not automatically send or store information." data-es="Este formulario abre tu aplicación de correo y no envía ni almacena información automáticamente.">
      Este formulario abre tu aplicación de correo y no envía ni almacena información automáticamente.
   </p>
 </section>
 </main>
-
 <footer class="site-footer">
-  <div class="footer-grid">
-    <div>
-      <div class="footer-brand">
-        <img src="https://beademolay.org/wp-content/uploads/2022/06/Logos-01.jpg" alt="DeMolay" class="footer-official">
-        <div><strong>DeMolay Puerto Rico</strong><span>demolaypr.org</span></div>
-      </div>
-      <p data-es="Liderazgo, carácter, hermandad y servicio." data-en="Leadership, character, brotherhood and service.">Liderazgo, carácter, hermandad y servicio.</p>
-    </div>
-    <div>
-      <h4 data-es="Explora" data-en="Explore">Explora</h4>
-      <a href="/about/" data-es="Quiénes somos" data-en="About">Quiénes somos</a>
-      <a href="/chapters/" data-es="Capítulos" data-en="Chapters">Capítulos</a>
-      <a href="/join/" data-es="Únete" data-en="Join">Únete</a>
-      <a href="/parents/" data-es="Padres" data-en="Parents">Padres</a>
-    </div>
-    <div>
-      <h4 data-es="Conecta" data-en="Connect">Conecta</h4>
-      <a href="/events/" data-es="Eventos" data-en="Events">Eventos</a>
-      <a href="/news/" data-es="Noticias" data-en="News">Noticias</a>
-      <a href="/contact/" data-es="Contacto" data-en="Contact">Contacto</a>
-      <a href="https://demolay.org/" target="_blank" rel="noopener">DeMolay International ↗</a>
-    </div>
-  </div>
-  <div class="footer-bottom">
-    <span>© 2026 DeMolay Puerto Rico</span>
-    <span data-es="Sitio informativo en desarrollo. Las marcas de DeMolay pertenecen a sus respectivos titulares."
-          data-en="Informational site under development. DeMolay marks belong to their respective owners.">
+<div class="footer-grid">
+<div>
+<div class="footer-brand">
+<img alt="DeMolay" class="footer-official" src="https://beademolay.org/wp-content/uploads/2022/06/Logos-01.jpg"/>
+<div><strong>DeMolay Puerto Rico</strong><span>demolaypr.org</span></div>
+</div>
+<p data-en="Leadership, character, brotherhood and service." data-es="Liderazgo, carácter, hermandad y servicio.">Liderazgo, carácter, hermandad y servicio.</p>
+</div>
+<div>
+<h4 data-en="Explore" data-es="Explora">Explora</h4>
+<a data-en="About" data-es="Quiénes somos" href="/about/">Quiénes somos</a>
+<a data-en="Chapters" data-es="Capítulos" href="/chapters/">Capítulos</a>
+<a data-en="Leadership" data-es="Liderazgo" href="/leadership/">Liderazgo</a>
+<a data-en="Join" data-es="Únete" href="/join/">Únete</a>
+<a data-en="Parents" data-es="Padres" href="/parents/">Padres</a>
+</div>
+<div>
+<h4 data-en="Connect" data-es="Conecta">Conecta</h4>
+<a data-en="Events" data-es="Eventos" href="/events/">Eventos</a><a data-en="Gallery" data-es="Galería" href="/gallery/">Galería</a>
+<a data-en="News" data-es="Noticias" href="/news/">Noticias</a>
+<a data-en="Contact" data-es="Contacto" href="/contact/">Contacto</a>
+<a data-en="DeMolay Worldwide" data-es="DeMolay en el mundo" href="/world/">DeMolay en el mundo</a>
+<a href="https://beademolay.org/" rel="noopener" target="_blank">DeMolay International ↗</a>
+</div>
+</div>
+<div class="footer-bottom">
+<span>© 2026 DeMolay Puerto Rico</span>
+<span data-en="Informational site under development. DeMolay marks belong to their respective owners." data-es="Sitio informativo en desarrollo. Las marcas de DeMolay pertenecen a sus respectivos titulares.">
       Sitio informativo en desarrollo. Las marcas de DeMolay pertenecen a sus respectivos titulares.
     </span>
-  </div>
-
-<div class="social-links" aria-label="Redes sociales de DeMolay Puerto Rico">
-  <a href="https://www.facebook.com/DemolayPuertoRico" target="_blank" rel="noopener" aria-label="Facebook">Facebook</a>
-  <a href="https://www.instagram.com/demolaypuertorico" target="_blank" rel="noopener" aria-label="Instagram">Instagram</a>
-  <a href="https://www.tiktok.com/@demolay.pr" target="_blank" rel="noopener" aria-label="TikTok">TikTok</a>
-  <a href="https://linktr.ee/demolaypuertorico" target="_blank" rel="noopener" aria-label="Linktree">Linktree</a>
-  <a href="https://wa.me/17876272440?text=%C2%A1Hola%21%20Me%20interesa%20conocer%20m%C3%A1s%20sobre%20DeMolay%20Puerto%20Rico.%20Quisiera%20informaci%C3%B3n%20sobre%20c%C3%B3mo%20participar." target="_blank" rel="noopener" aria-label="WhatsApp">WhatsApp</a>
+</div>
+<div aria-label="Redes sociales de DeMolay Puerto Rico" class="social-links">
+<a aria-label="Facebook" href="https://www.facebook.com/DemolayPuertoRico" rel="noopener" target="_blank">Facebook</a>
+<a aria-label="Instagram" href="https://www.instagram.com/demolaypuertorico" rel="noopener" target="_blank">Instagram</a>
+<a aria-label="TikTok" href="https://www.tiktok.com/@demolay.pr" rel="noopener" target="_blank">TikTok</a>
+<a aria-label="Linktree" href="https://linktr.ee/demolaypuertorico" rel="noopener" target="_blank">Linktree</a>
+<a aria-label="WhatsApp" href="https://wa.me/17876272440?text=%C2%A1Hola%21%20Me%20interesa%20conocer%20m%C3%A1s%20sobre%20DeMolay%20Puerto%20Rico.%20Quisiera%20informaci%C3%B3n%20sobre%20c%C3%B3mo%20participar." rel="noopener" target="_blank">WhatsApp</a>
 </div>
 </footer>
-
 <script src="/script.js"></script>
 </body>
 </html>

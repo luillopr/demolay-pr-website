@@ -1,40 +1,16 @@
-# DeMolay Puerto Rico Website — V2
+# DeMolay Puerto Rico Website — V2.4
 
-Static bilingual website for DeMolay Puerto Rico.
+Benchmark-driven update inspired by official DeMolay jurisdiction sites in the U.S. and internationally.
 
-## Cloudflare
-- Build command: none
-- Deploy command: `npx wrangler deploy`
-- Root directory: `/`
+## V2.4 additions
+- Stronger recruitment-focused homepage
+- Life in DeMolay section
+- Separate young men / parents pathways
+- New Leadership page
+- New DeMolay Worldwide page with official external resources
+- International jurisdiction context
+- Existing Events + Past Events + Gallery retained
+- Full chapter emblem visibility retained
+- Bilingual ES/EN behavior retained
 
-## Primary domain
-`demolaypr.org`
-
-## Main content
-- Home
-- About
-- Chapters
-- Hijos de América
-- Parents
-- Join
-- Events
-- News
-- Resources
-- Contact
-
-## Notes
-The membership form currently uses a `mailto:` workflow and does not store form data on the website.
-
-## V2.1 branding update
-- Updated to the current DeMolay International palette.
-- Header/footer use the current DeMolay corporate mark from the official DeMolay International website.
-- The Hijos de América emblem is retained for chapter-specific content, not as the corporate/jurisdiction mark.
-- Added official Brand Center resource and "The Road Begins Here" campaign language.
-
-## V2.2 social/contact update
-- Facebook: https://www.facebook.com/DemolayPuertoRico
-- Instagram: https://www.instagram.com/demolaypuertorico
-- TikTok: https://www.tiktok.com/@demolay.pr
-- Linktree: https://linktr.ee/demolaypuertorico
-- WhatsApp CTA added using the current contact number.
-- WhatsApp link opens with a pre-filled Spanish recruitment message.
+Deploy the contents of this folder to the existing GitHub repository.
