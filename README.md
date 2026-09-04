@@ -24,3 +24,9 @@ Static bilingual website for DeMolay Puerto Rico.
 
 ## Notes
 The membership form currently uses a `mailto:` workflow and does not store form data on the website.
+
+## V2.1 branding update
+- Updated to the current DeMolay International palette.
+- Header/footer use the current DeMolay corporate mark from the official DeMolay International website.
+- The Hijos de América emblem is retained for chapter-specific content, not as the corporate/jurisdiction mark.
+- Added official Brand Center resource and "The Road Begins Here" campaign language.
