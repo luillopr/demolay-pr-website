@@ -35,14 +35,21 @@
 <h1 data-en="Take the first step." data-es="Da el primer paso.">Take the first step.</h1>
 <p data-en="Complete this information to prepare an interest message. For now, the form does not store data on the website." data-es="Completa esta información para preparar un mensaje de interés. Por ahora, el formulario no almacena datos en el sitio.">Complete this information to prepare an interest message. For now, the form does not store data on the website.</p>
 </section>
+<section class="pathways-section">
+<div class="section-head simple-head"><p class="eyebrow">OTHER WAYS TO PARTICIPATE</p><h2>There is also a place for adults and communities.</h2><p>These links prepare an interest email. They are not an official application, appointment or approval.</p></div>
+<div class="pathway-grid">
+<article id="adults"><span>ADULTS</span><h3>Become an advisor or volunteer</h3><p>Interested in mentoring young men, supporting activities or sharing professional experience? Tell us about yourself so we can arrange an initial conversation.</p><a class="primary" href="mailto:info@demolaypr.org?subject=Interest%20in%20becoming%20an%20adult%20advisor%20or%20volunteer&amp;body=Hello%2C%0A%0AI%20would%20like%20to%20learn%20how%20I%20can%20support%20DeMolay%20Puerto%20Rico%20as%20an%20adult%20advisor%20or%20volunteer.%0A%0AName%3A%0AMunicipality%3A%0APhone%3A%0AExperience%20or%20area%20where%20I%20would%20like%20to%20help%3A%0A%0AThank%20you.">I want to help</a></article>
+<article id="chapters"><span>COMMUNITIES</span><h3>Help start a chapter</h3><p>If families, young men or a sponsoring organization are interested in developing DeMolay in another municipality, we can begin an exploratory conversation.</p><a class="primary" href="mailto:info@demolaypr.org?subject=Interest%20in%20starting%20a%20DeMolay%20chapter&amp;body=Hello%2C%0A%0AI%20would%20like%20initial%20guidance%20about%20the%20possibility%20of%20starting%20a%20DeMolay%20chapter.%0A%0AName%3A%0AMunicipality%20or%20region%3A%0AInterested%20organization%20or%20group%2C%20if%20applicable%3A%0AApproximate%20number%20of%20interested%20young%20men%20or%20families%3A%0APhone%3A%0AComments%3A%0A%0AThank%20you.">Explore a new chapter</a></article>
+</div></section>
 <section class="form-section">
 <form class="interest-form" id="interestForm">
-<label><span data-en="Young man's name" data-es="Nombre del joven">Young man's name</span><input id="youthName" required=""/></label>
+<label aria-hidden="true" class="honeypot-field">Leave this field empty<input autocomplete="off" id="website" name="website" tabindex="-1" type="text"/></label>
+<label><span data-en="Young man's name" data-es="Nombre del joven">Young man's name</span><input autocomplete="section-youth name" id="youthName" required=""/></label>
 <label><span data-en="Age" data-es="Edad">Age</span><input id="age" max="21" min="12" required="" type="number"/></label>
-<label><span data-en="Municipality" data-es="Municipio">Municipality</span><input id="municipality" required=""/></label>
-<label><span data-en="Parent or guardian name" data-es="Nombre del padre, madre o tutor">Parent or guardian name</span><input id="guardianName" required=""/></label>
-<label><span data-en="Email" data-es="Correo electrónico">Email</span><input id="email" required="" type="email"/></label>
-<label><span data-en="Phone (optional)" data-es="Teléfono (opcional)">Phone (optional)</span><input id="phone" type="tel"/></label>
+<label><span data-en="Municipality" data-es="Municipio">Municipality</span><input autocomplete="section-guardian address-level2" id="municipality" required=""/></label>
+<label><span data-en="Parent or guardian name" data-es="Nombre del padre, madre o tutor">Parent or guardian name</span><input autocomplete="section-guardian name" id="guardianName" required=""/></label>
+<label><span data-en="Email" data-es="Correo electrónico">Email</span><input autocomplete="section-guardian email" id="email" required="" type="email"/></label>
+<label><span data-en="Phone" data-es="Teléfono">Phone</span><input autocomplete="section-guardian tel" id="phone" required="" type="tel"/></label>
 <label class="full"><span data-en="How did you hear about DeMolay?" data-es="¿Cómo conociste DeMolay?">How did you hear about DeMolay?</span><textarea id="source" rows="4"></textarea></label>
 <button class="primary" data-en="Prepare interest email" data-es="Preparar correo de interés" type="submit">Prepare interest email</button>
 </form>
@@ -87,6 +94,6 @@
 <a aria-label="WhatsApp" href="https://wa.me/17876272440?text=Hello%21%20I%27m%20interested%20in%20learning%20more%20about%20DeMolay%20Puerto%20Rico.%20I%27d%20like%20information%20about%20how%20to%20participate." rel="noopener" target="_blank">WhatsApp</a>
 </div>
 </footer>
-<script src="/script.js"></script>
+<script src="/script.js?v=20260904-2"></script>
 </body>
 </html>

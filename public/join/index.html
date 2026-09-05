@@ -37,14 +37,21 @@
      Completa esta información para preparar un mensaje de interés. Por ahora, el formulario no almacena datos en el sitio.
   </p>
 </section>
+<section class="pathways-section">
+<div class="section-head simple-head"><p class="eyebrow">OTRAS FORMAS DE PARTICIPAR</p><h2>También hay un lugar para los adultos y las comunidades.</h2><p>Estos enlaces preparan un correo de interés. No constituyen una solicitud oficial, nombramiento ni aprobación.</p></div>
+<div class="pathway-grid">
+<article id="adultos"><span>ADULTOS</span><h3>Ser advisor o voluntario</h3><p>¿Te interesa orientar jóvenes, apoyar actividades o aportar experiencia profesional? Cuéntanos sobre ti y coordinaremos una conversación inicial.</p><a class="primary" href="mailto:info@demolaypr.org?subject=Inter%C3%A9s%20en%20ser%20advisor%20o%20voluntario%20adulto&amp;body=Saludos%2C%0A%0AMe%20interesa%20conocer%20c%C3%B3mo%20puedo%20colaborar%20como%20advisor%20o%20voluntario%20adulto%20con%20DeMolay%20Puerto%20Rico.%0A%0ANombre%3A%0AMunicipio%3A%0ATel%C3%A9fono%3A%0AExperiencia%20o%20%C3%A1rea%20en%20la%20que%20me%20gustar%C3%ADa%20colaborar%3A%0A%0AGracias.">Me interesa colaborar</a></article>
+<article id="capitulos"><span>COMUNIDADES</span><h3>Ayudar a crear un capítulo</h3><p>Si hay familias, jóvenes o una organización patrocinadora interesada en desarrollar DeMolay en otro municipio, podemos comenzar una conversación exploratoria.</p><a class="primary" href="mailto:info@demolaypr.org?subject=Inter%C3%A9s%20en%20crear%20un%20cap%C3%ADtulo%20DeMolay&amp;body=Saludos%2C%0A%0AMe%20interesa%20recibir%20orientaci%C3%B3n%20inicial%20sobre%20la%20posibilidad%20de%20crear%20un%20cap%C3%ADtulo%20DeMolay.%0A%0ANombre%3A%0AMunicipio%20o%20regi%C3%B3n%3A%0AOrganizaci%C3%B3n%20o%20grupo%20interesado%2C%20si%20aplica%3A%0ACantidad%20aproximada%20de%20j%C3%B3venes%20o%20familias%20interesadas%3A%0ATel%C3%A9fono%3A%0AComentarios%3A%0A%0AGracias.">Explorar un nuevo capítulo</a></article>
+</div></section>
 <section class="form-section">
 <form class="interest-form" id="interestForm">
-<label><span data-en="Young man's name" data-es="Nombre del joven">Nombre del joven</span><input id="youthName" required=""/></label>
+<label aria-hidden="true" class="honeypot-field">Deja este campo vacío<input autocomplete="off" id="website" name="website" tabindex="-1" type="text"/></label>
+<label><span data-en="Young man's name" data-es="Nombre del joven">Nombre del joven</span><input autocomplete="section-youth name" id="youthName" required=""/></label>
 <label><span data-en="Age" data-es="Edad">Edad</span><input id="age" max="21" min="12" required="" type="number"/></label>
-<label><span data-en="Municipality" data-es="Municipio">Municipio</span><input id="municipality" required=""/></label>
-<label><span data-en="Parent or guardian name" data-es="Nombre del padre, madre o tutor">Nombre del padre, madre o tutor</span><input id="guardianName" required=""/></label>
-<label><span data-en="Email" data-es="Correo electrónico">Correo electrónico</span><input id="email" required="" type="email"/></label>
-<label><span data-en="Phone (optional)" data-es="Teléfono (opcional)">Teléfono (opcional)</span><input id="phone" type="tel"/></label>
+<label><span data-en="Municipality" data-es="Municipio">Municipio</span><input autocomplete="section-guardian address-level2" id="municipality" required=""/></label>
+<label><span data-en="Parent or guardian name" data-es="Nombre del padre, madre o tutor">Nombre del padre, madre o tutor</span><input autocomplete="section-guardian name" id="guardianName" required=""/></label>
+<label><span data-en="Email" data-es="Correo electrónico">Correo electrónico</span><input autocomplete="section-guardian email" id="email" required="" type="email"/></label>
+<label><span data-en="Phone" data-es="Teléfono">Teléfono</span><input autocomplete="section-guardian tel" id="phone" required="" type="tel"/></label>
 <label class="full"><span data-en="How did you hear about DeMolay?" data-es="¿Cómo conociste DeMolay?">¿Cómo conociste DeMolay?</span><textarea id="source" rows="4"></textarea></label>
 <button class="primary" data-en="Prepare interest email" data-es="Preparar correo de interés" type="submit">Preparar correo de interés</button>
 </form>
@@ -93,6 +100,6 @@
 <a aria-label="WhatsApp" href="https://wa.me/17876272440?text=%C2%A1Hola%21%20Me%20interesa%20conocer%20m%C3%A1s%20sobre%20DeMolay%20Puerto%20Rico.%20Quisiera%20informaci%C3%B3n%20sobre%20c%C3%B3mo%20participar." rel="noopener" target="_blank">WhatsApp</a>
 </div>
 </footer>
-<script src="/script.js"></script>
+<script src="/script.js?v=20260904-2"></script>
 </body>
 </html>

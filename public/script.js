@@ -20,6 +20,11 @@ const form=document.getElementById("interestForm");
 if(form){
   form.addEventListener("submit",(e)=>{
     e.preventDefault();
+    const honeypot=document.getElementById("website");
+    if(honeypot&&honeypot.value.trim()){
+      form.reset();
+      return;
+    }
     const youth=document.getElementById("youthName").value.trim();
     const age=document.getElementById("age").value.trim();
     const municipality=document.getElementById("municipality").value.trim();
@@ -39,7 +44,7 @@ Age: ${age}
 Municipality: ${municipality}
 Parent/Guardian: ${guardian}
 Email: ${email}
-Phone: ${phone || "Not provided"}
+Phone: ${phone}
 How they heard about DeMolay: ${source || "Not indicated"}
 
 Thank you.`:
@@ -52,7 +57,7 @@ Edad: ${age}
 Municipio: ${municipality}
 Padre/Madre/Tutor: ${guardian}
 Correo: ${email}
-Teléfono: ${phone || "No provisto"}
+Teléfono: ${phone}
 Cómo conoció DeMolay: ${source || "No indicado"}
 
 Gracias.`);
