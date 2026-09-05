@@ -1,4 +1,4 @@
-# DeMolay Puerto Rico Website — V3.1
+# DeMolay Puerto Rico Website — V3.5
 
 Production static website for demolaypr.org.
 
@@ -50,3 +50,34 @@ Deploy with the existing Cloudflare Workers static-assets configuration.
 - Added complete venue addresses and map directions to all upcoming events.
 - Added full postal addresses to the Spanish and English Event structured data.
 - Added an official Facebook timeline widget to both home pages, with direct Facebook and Instagram links.
+
+## V3.3 mobile and discovery improvements
+- Fixed horizontal overflow on the home-page chapter feature at mobile widths.
+- Verified the home, events, gallery, navigation and social sections at a 390 px phone viewport.
+- Reworked the Spanish and English home-page titles, descriptions and primary headings around searches for youth activities, leadership, community service and adult mentorship in Puerto Rico.
+- Added visible parent-focused content that explains how DeMolay can complement options such as Scouts, sports and school clubs.
+- Added `Service` structured data describing the youth program and its 12–21 audience.
+- Updated the sitemap modification dates for the home pages.
+
+## V3.4 leadership article
+- Added the Spanish article `/news/como-desarrollar-liderazgo-en-jovenes/`.
+- Added the article to the News page and XML sitemap.
+- Included Article JSON-LD, canonical metadata and a social-sharing image.
+- Covered practical responsibility, event planning, public speaking, service, teamwork, adult mentorship and reflection.
+- Added official DeMolay International sources for the youth-led, adult-advised program model.
+- Added responsive editorial styles and verified the article at a 390 px phone viewport.
+
+## V3.5 participation and form updates
+- Added interest paths on the Spanish and English Join pages for adult advisors/volunteers and communities interested in starting a chapter.
+- Added corresponding links from the Spanish and English Resources pages.
+- Interest buttons prepare pre-addressed emails; they do not submit, store or approve an official application.
+- Made the phone number mandatory on both youth/family interest forms.
+- Added semantic autocomplete for the young man's name, municipality, parent/guardian name, email and phone fields.
+- Kept youth and guardian autocomplete data in separate browser sections to avoid mixing identities.
+- Added an off-screen honeypot field to both forms. Suspected bot submissions are silently rejected and reset.
+- Added a cache-version to the Join page script so browsers receive the updated form protection.
+
+## Current form behavior and future protection
+- The website is static. The youth/family form prepares an email in the visitor's email application and does not store data on the site.
+- Adult-advisor and new-chapter interest links also prepare email messages to `info@demolaypr.org`.
+- The honeypot is a lightweight first layer. A future server-backed form can add free Cloudflare Turnstile verification, server-side validation and rate limiting.
