@@ -45,3 +45,8 @@ Deploy with the existing Cloudflare Workers static-assets configuration.
 - Updated the home-page activity preview with public speaking, an active ceremony and a Memorial Day observance.
 - Expanded the Spanish and English galleries to ten optimized activity photos.
 - Added descriptive bilingual captions and accessible image text.
+
+## V3.2 event directions and social updates
+- Added complete venue addresses and map directions to all upcoming events.
+- Added full postal addresses to the Spanish and English Event structured data.
+- Added an official Facebook timeline widget to both home pages, with direct Facebook and Instagram links.
