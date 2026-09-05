@@ -1,4 +1,4 @@
-# DeMolay Puerto Rico Website — V3.2
+# DeMolay Puerto Rico Website — V3.1
 
 Production static website for demolaypr.org.
 

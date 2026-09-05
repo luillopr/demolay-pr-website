@@ -5,6 +5,7 @@
     <xhtml:link rel="alternate" hreflang="es-PR" href="https://demolaypr.org/"/>
     <xhtml:link rel="alternate" hreflang="en-US" href="https://demolaypr.org/en/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://demolaypr.org/"/>
+    <lastmod>2026-09-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
@@ -13,6 +14,7 @@
     <xhtml:link rel="alternate" hreflang="es-PR" href="https://demolaypr.org/"/>
     <xhtml:link rel="alternate" hreflang="en-US" href="https://demolaypr.org/en/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://demolaypr.org/"/>
+    <lastmod>2026-09-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
@@ -207,5 +209,11 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://demolaypr.org/world/"/>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://demolaypr.org/news/como-desarrollar-liderazgo-en-jovenes/</loc>
+    <lastmod>2026-09-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
 </urlset>
